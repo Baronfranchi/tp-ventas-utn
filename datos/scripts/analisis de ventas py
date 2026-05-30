@@ -1,0 +1,8 @@
+analisis_ventas.py
+import pandas as pd
+
+df = pd.read_csv("../datos/ventas.csv")
+
+df["venta_total"] = df["cantidad"] * df["precio"]
+
+print("Ventas totales:", df["venta_total"].sum())
