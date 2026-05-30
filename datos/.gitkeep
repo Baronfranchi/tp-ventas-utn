@@ -1,1 +1,8 @@
 datos/.gitkeep
+ventas.csv
+fecha,producto,cantidad,precio
+2026-01-01,Mouse,5,10000
+2026-01-02,Teclado,3,15000
+2026-01-03,Mouse,2,10000
+2026-01-04,Monitor,1,80000
+2026-01-05,Teclado,4,15000
